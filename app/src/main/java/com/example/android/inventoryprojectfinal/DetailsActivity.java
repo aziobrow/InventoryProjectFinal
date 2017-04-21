@@ -61,7 +61,7 @@ public class DetailsActivity extends AppCompatActivity implements
 
 
     @Override
-    public void onLoadFinished (Loader < Cursor > loader, final Cursor cursor){
+    public void onLoadFinished(Loader<Cursor> loader, final Cursor cursor) {
         // Bail early if the cursor is null or there is less than 1 row in the cursor
         if (cursor == null || cursor.getCount() < 1) {
             return;

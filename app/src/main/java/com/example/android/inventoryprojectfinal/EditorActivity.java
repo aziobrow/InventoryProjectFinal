@@ -113,7 +113,7 @@ public class EditorActivity extends AppCompatActivity {
         }
         int quantityInt = Integer.parseInt(quantityString);
 
-        if(image == null) {
+        if (image == null) {
             Toast.makeText(EditorActivity.this, "Please set an image.", Toast.LENGTH_SHORT).show();
             return;
         }

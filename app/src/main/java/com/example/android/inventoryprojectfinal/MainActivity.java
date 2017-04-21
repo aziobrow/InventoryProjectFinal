@@ -19,7 +19,9 @@ import android.widget.ListView;
 
 import com.example.android.inventoryprojectfinal.data.ProductContract.ProductEntry;
 
-/** Displays list of products that were entered and stored in the app */
+/**
+ * Displays list of products that were entered and stored in the app
+ */
 public class MainActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
 
@@ -117,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements
                 ProductEntry._ID,
                 ProductEntry.COLUMN_NAME,
                 ProductEntry.COLUMN_PRICE,
-                ProductEntry.COLUMN_QUANTITY    };
+                ProductEntry.COLUMN_QUANTITY};
 
         return new CursorLoader(this, ProductEntry.CONTENT_URI, projection, null, null, null);
     }

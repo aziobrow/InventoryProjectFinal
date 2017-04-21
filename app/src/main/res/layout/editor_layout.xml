@@ -15,35 +15,39 @@
         android:id="@+id/quantity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
         android:layout_margin="16dp"
-        android:hint="Quantity in Stock" />
+        android:hint="Quantity in Stock"
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:inputType="number"
-        android:hint="Price per unit in cents" />
+        android:hint="Price per unit in cents"
+        android:inputType="number" />
+
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:inputType="textEmailAddress"
-        android:hint="Supplier E-mail" />
+        android:hint="Supplier E-mail"
+        android:inputType="textEmailAddress" />
+
     <ImageView
         android:id="@+id/testImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal" />
+
     <Button
         android:id="@+id/addImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="Add Image" />
+
     <Button
         android:id="@+id/save_product"
         android:layout_width="match_parent"

@@ -32,15 +32,15 @@
         android:id="@+id/products_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:layout_below="@id/buttons" />
+        android:layout_below="@id/buttons"
+        android:layout_margin="8dp" />
 
     <TextView
         android:id="@+id/empty_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fontFamily="sans-serif-medium"
         android:gravity="center"
-        android:text="There are no products right now.\nClick on Add Product to get started!"
-        android:fontFamily="sans-serif-medium"/>
+        android:text="There are no products right now.\nClick on Add Product to get started!" />
 
 </RelativeLayout>

@@ -11,7 +11,7 @@ import com.example.android.inventoryprojectfinal.data.ProductContract.ProductEnt
  * Manages database creation and version management.
  */
 
-public class ProductDbHelper extends SQLiteOpenHelper   {
+public class ProductDbHelper extends SQLiteOpenHelper {
     public static final String LOG_TAG = ProductDbHelper.class.getSimpleName();
 
     private static final String DATABASE_NAME = "inventory.db";
@@ -20,6 +20,7 @@ public class ProductDbHelper extends SQLiteOpenHelper   {
 
     /**
      * Constructs a new instance of ProductDbHelper
+     *
      * @param context of the app
      */
     public ProductDbHelper(Context context) {
@@ -28,6 +29,7 @@ public class ProductDbHelper extends SQLiteOpenHelper   {
 
     /**
      * Called when the database is created for the first time
+     *
      * @param db
      */
     @Override

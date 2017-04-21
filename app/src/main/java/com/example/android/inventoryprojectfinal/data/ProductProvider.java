@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.util.Log;
 
 import com.example.android.inventoryprojectfinal.data.ProductContract.ProductEntry;
+
 /**
  * Creates ContentProvider for Inventory app
  */
@@ -207,7 +208,7 @@ public class ProductProvider extends ContentProvider {
     }
 
     @Override
-    public int delete (Uri uri, String selection, String[]selectionArgs){
+    public int delete(Uri uri, String selection, String[] selectionArgs) {
         SQLiteDatabase database = mDbHelper.getWritableDatabase();
 
         int rowsDeleted;
@@ -234,7 +235,7 @@ public class ProductProvider extends ContentProvider {
     }
 
     @Override
-    public String getType (Uri uri){
+    public String getType(Uri uri) {
         final int match = sUriMatcher.match(uri);
         switch (match) {
             case INVENTORY:
