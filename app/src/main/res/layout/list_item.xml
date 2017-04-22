@@ -67,6 +67,6 @@
         android:layout_margin="8dp"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        android:text="Track Sale" />
+        android:text="Sale product" />
 
 </LinearLayout>

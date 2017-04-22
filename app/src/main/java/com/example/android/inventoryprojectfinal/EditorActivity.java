@@ -53,9 +53,6 @@ public class EditorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.editor_layout);
 
-        Intent intent = getIntent();
-        mCurrentProductUri = intent.getData();
-
         // Find all relevant views that we will need to read user input from
         mNameEditText = (EditText) findViewById(R.id.product_name);
         mPriceEditText = (EditText) findViewById(R.id.price);

@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements
                 ProductEntry.COLUMN_SUPPLIER_EMAIL
         };
 
-        Cursor cursor = getContentResolver().query(ProductEntry.CONTENT_URI, projection, null, null, null);
+        getContentResolver().query(ProductEntry.CONTENT_URI, projection, null, null, null);
         // Find the ListView which will be populated with the product data
         ListView productListView = (ListView) findViewById(R.id.products_list);
 

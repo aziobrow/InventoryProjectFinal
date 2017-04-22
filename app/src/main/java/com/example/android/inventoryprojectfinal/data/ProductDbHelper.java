@@ -12,7 +12,6 @@ import com.example.android.inventoryprojectfinal.data.ProductContract.ProductEnt
  */
 
 public class ProductDbHelper extends SQLiteOpenHelper {
-    public static final String LOG_TAG = ProductDbHelper.class.getSimpleName();
 
     private static final String DATABASE_NAME = "inventory.db";
 
